@@ -1,25 +1,31 @@
 html{
  width: 100%;
- background-image: url("/workbook/week2/play/wb_wk2_pp3.JPEG");
- background-size: 100vw; 
  overflow-x: hidden;
+ cursor: url("images/wb_spider_cursor.png") 24 24, auto;
+}
+
+*:hover{
+   cursor: url("images/wb_spiderPointer_cursor.png") 24 24, pointer;
 }
 
 header{
-   width: 100vw;
+   width: 40vw;
    height: 100vh;
    display: flex;
    flex-direction: row;
    justify-content: center;
    align-items: center;
+   margin: auto;
 }
 
 h1{
    padding: 10px;
-   background-color: rgb(255, 255, 255, 0.9);
-   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   background-color: greenyellow;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
    font-size: 72px;
    letter-spacing: 0.2em;
+   text-align: center;
+   line-height: 0.9em;
 }
 
 .generalfeelings{
